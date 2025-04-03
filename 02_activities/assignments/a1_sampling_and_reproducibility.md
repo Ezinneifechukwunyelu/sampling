@@ -10,10 +10,11 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Ezinneifechukwunyelu Ndubueze
 
 ```
-Please write your explanation here...
+1. line 47: np.random==>random assignment of infection @ 10%(attack rate),from entire population
+2. line 51: np.random==> random assignment of traceable infection at < 20%(trace_sucess), from only infected people
 
 ```
 
