@@ -10,14 +10,40 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: Ezinneifechukwunyelu Ndubueze
+# Author:Ezinneifechukwunyelu Ndubueze
 
 ```
-1. line 47: np.random==>random assignment of infection @ 10%(attack rate),from entire population
-2. line 51: np.random==> random assignment of traceable infection at < 20%(trace_sucess), from only infected people
+1. Sampling 1 : Infection 
+Sampling procedure : random selection 
+Function used: np.random.choice
+Sample size: 10% of 1000 = 100
+Sampling frame:800+200=1000(entire population)
+Distribution: uniform 
+Relationship to the article: this is setting the  the number of infected people using the iinfection rate 
 
-```
+2. Sampling 2: Primary Contact Tracing 
+Sampling procedure : random selection 
+Function used: np.random.rand
+Sample size: <20% of 100 (20 people)
+Sampling frame:only infected people(100)
+Distribution : Bernoulli
+Relationship to the article: this is setting the  the number of infected people who can be contact traced from the infected population
 
+3.Sampling 3: Secondary contact tracing 
+Sampling procedure : stratified sampling with wedding and brunch as two stratas
+Function used: N/A
+Sample size: 2
+Sampling frame: only infected people(100)
+Distribution : not sure what type of distribution, but it will be 2 points for the 2 infected people selected for tracing
+Relationship to the article: random selection of 2 infected people to see if they are traced to the same event
+
+
+4. code does not reproduce the graph in the post
+
+5. result are not reproduciable. varies with every run
+
+6. To make code reproduciable, set a seed at the beginning of the code using np.random.seed.
+seed set to 1515 in code
 
 ## Criteria
 
