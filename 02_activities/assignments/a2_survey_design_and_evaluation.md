@@ -21,45 +21,52 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
 
-1. Sample type
-2. Sample size
-3. Target population
-4. Sampling frame
-5. Survey mode(s) 
-6. Timeline
-7. Response rate
-8. Weights
-9. Data processing
-10. Cleaning, imputation, etc
+1. Sample type: stratified
+2. Sample :16,149
+3. Target population:survey included all persons 15 years of age and older in Canada,excluding:
+A. Residents of the Yukon, Northwest Territories, and Nunavut;
+B. Full-time residents of institutions.
+4. Sampling frame:
+A. Lists of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources (Telephone companies, Census of population, etc.);
+B. The Address Register (AR): List of all dwellings within the ten provinces.
+5. Survey mode(s):Electronic self-completed questionnaire (rEQ),computer assisted telephone interviews (iEQ), Telephone interview
+6. Timeline: September 2018 to December 2018.
+7. Response rate:41.9
+8. Weights: estiomation and boot strap weights
+9. Data processing: Coding
+10. Cleaning, imputation, etc:
 11. Sources of error
-12. Limitations, known biases, etc
-13. Link to documentation and any additional sources used
+12. Limitations, known biases, etc:
+13. Link to documentation and any additional sources used:NA
 
 
 # Your Changes
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survey seeks to collect information on the types/Genre of music you like and also your opinions on popular music.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: people who listen to popular music
+Sampling frame: People who listen to popular music and other types of music within the GTA between ages 16 to 65
+Sampling units: People selected to paricipate 
+Observational Units: People selected to paricipate
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
+1. Age ?
+2. Gender?
+3. Postal Code?
+4. How often do you listen to music?
+5. What Genres of Music do you listen to the most?
+6. How often do you listen to popular music
 7. write your question here... (optional)
 8. write your question here... (optional)
 9. write your question here... (optional)
@@ -71,7 +78,28 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: stratified
+2. Sample :16,149
+3. Target population:survey included all persons 15 years of age and older in Canada,excluding:
+    A. Residents of the Yukon, Northwest Territories, and Nunavut;
+    B. Full-time residents of institutions.
+4. Sampling frame:
+    A. Lists of telephone numbers in use (both landline and cellular) available to Statistics Canada from various sources (Telephone companies, Census of population, etc.);
+    B. The Address Register (AR): List of all dwellings within the ten provinces.
+5. Survey mode(s):Electronic self-completed questionnaire (rEQ),computer assisted telephone interviews (iEQ), Telephone interview
+6. Timeline: September 2018 to December 2018.
+7. Response rate:41.9
+8. Weights: estiomation and boot strap weights
+9. Data processing: Coding
+10. Cleaning, imputation, etc:donor imputation
+11. Sources of error:
+    Sampling Error: Variability arising from surveying a sample rather than the entire population.
+    measurement errors
+    data processing mistakes
+12. Limitations, known biases, etc:
+    The survey did not cover residents of the three territories, full-time institutional residents, or individuals living on reserves.
+    Responses may be influenced by social desirability or recall inaccuracies (AKA people lie).
+13. Link to documentation and any additional sources used:NA
 ```
 
 ## Rubric
